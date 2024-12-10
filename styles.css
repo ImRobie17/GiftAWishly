@@ -253,7 +253,7 @@ header {
 }
 
 #salesTable{
-    margin: 40px 20px;
+    margin: 40px auto;
     overflow: scroll;
 }
 thead{
