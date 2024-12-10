@@ -252,6 +252,9 @@ header {
     transition: transform 0.3s ease;
 }
 
+#salesTable{
+    margin: 40px 20px;
+}
 thead{
     background-color: #0056b3;
 }
