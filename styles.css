@@ -252,6 +252,11 @@ header {
     transition: transform 0.3s ease;
 }
 
+thead{
+    background-color: #0056b3;
+}
+
+
 .shop-now-pic img:hover {
     transform: scale(1.1);
 }
