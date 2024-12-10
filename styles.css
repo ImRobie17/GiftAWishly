@@ -254,6 +254,7 @@ header {
 
 #salesTable{
     margin: 40px 20px;
+    overflow: scroll;
 }
 thead{
     background-color: #0056b3;
