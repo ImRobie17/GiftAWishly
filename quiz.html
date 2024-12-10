@@ -93,7 +93,7 @@
     </main>
 
     <script>
-     loadAnswers();
+     
         const quizData = [
             {
                 question: "What does HTML stand for?",
@@ -214,10 +214,12 @@
                 }
             });
         };
-
+ 
         const saveAnswer = (index, value) => {
             localStorage.setItem(`answer${index}`, value);
         };
+
+     loadAnswers();
 
         quizData.forEach((data, index) => {
             const quizClone = quizTemplate.content.cloneNode(true);
@@ -279,6 +281,8 @@
             localStorage.clear();
             result.textContent = '';
         });
+
+     
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
