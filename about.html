@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>GIFTAWISHLY</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="x-icon" href="images/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg w-100">
+        <span id="logo"><img src="images/logo.jpg" alt="logo" /><a class="nav-link"
+                href="index.html">GIFTAWISHLY</a></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navi collapse navbar-collapse justify-content-between" id="navigation">
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li>
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li><a class="nav-link" href="account.html">Account</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">More Apps</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="toDoList.html">To Do List</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="discountMachine.html">Discount Machine</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="quiz.html">Quiz</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search" />
+            <button type="submit">Search</button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="overlay-header fade-in-up">
+            <h1 class="header-title">GIFTAWISHLY</h1>
+            <p>We bring happiness from every gift you wish.</p>
+            <a href="products.html" class="btn btn-shop-now btn-primary btn-lg">Shop Now</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="team">
+            <section class="team-section">
+                <h1>Team</h1>
+                <div class="team-container">
+                    <div class="team-box">
+                        <img src="images/Profile1.jpg" alt="image" />
+                        <h3>Lloyd Robie Tenorio</h3>
+                        <p>Full Stack Developer | Project Leader</p>
+                        <p>I am a Full Stack (HTML CSS JS) Developer</p>
+                        <button>
+                            <a href="#" class="contact">Contact Robie</a>
+                        </button>
+                    </div>
+                    <div class="team-box">
+                        <img src="images/Profile2.jpg" alt="image" />
+                        <h3>Jan Brian Laderas</h3>
+                        <p>Web Designer | Member</p>
+                        <p>I am Web Designer (HTML, CSS)</p>
+                        <button>
+                            <a href="#" class="contact">Contact Brian</a>
+                        </button>
+                    </div>
+                    <div class="team-box">
+                        <img src="images/Profile3.jpg" alt="image" />
+                        <h3>Zabrina Guarico</h3>
+                        <p>Front End Developer | Member</p>
+                        <p> I am a Front end Developer</p>
+                        <button>
+                            <a href="#" class="contact">Contact Zabrina</a>
+                        </button>
+                    </div>
+                </div>
+                
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-left justify-content-end">
+                    <h2>Stay Connected!</h2>
+                    <p>
+                        Sign up for our newsletter to receive updates on new
+                        products, exclusive offers, and special events. We
+                        promise to keep your inbox happy!
+                    </p>
+                    <form action="#" method="post" class="form-inline">
+                        <div class="form-group">
+                            <label for="email" class="mr-2">Email:</label>
+                            <input type="text" id="email" name="email" class="form-control mr-2" />
+                            <a href="" onclick="submit()" class="btn btn-shop-now btn-primary btn-lg">Submit</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 ml-auto">
+                    <p>
+                        Get notified when we make changes on our business!
+                    </p>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-12">
+                    <p>© 2024 All Rghts Reserve</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function submit() {
+            alert("Email successfully submitted!");
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

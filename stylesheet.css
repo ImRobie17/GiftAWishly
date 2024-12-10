@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .account-section  {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .unique-container {
+    width: 100%;
+    max-width: 480px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .unique-forms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .unique-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .unique-input-field {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .unique-input-field input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .unique-input-field input:focus {
+    outline: none;
+    border-color: #777;
+  }
+  
+  .unique-icon {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .unique-password {
+    padding-left: 35px;
+  }
+  
+  .unique-showHidePw {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    font-size: 18px;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .unique-checkbox-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .unique-checkbox-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .unique-text {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .unique-text:hover {
+    text-decoration: underline;
+  }
+  
+  .unique-button input {
+    width: 100%;
+    padding: 12px;
+    background-color: #777;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .unique-button input:hover {
+    background-color:  #777;
+  }
+  
+  .unique-login-signup {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .unique-signup-link, .unique-login-link {
+    font-weight: bold;
+    color:  #777;
+    text-decoration: none;
+  }
+  
+  .unique-signup-link:hover, .unique-login-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  
+  @media (max-width: 480px) {
+    .unique-container {
+      padding: 15px;
+    }
+  }
